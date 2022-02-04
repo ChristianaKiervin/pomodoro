@@ -68,7 +68,7 @@ def countdown(count):
     if count > 0:
         timer = window.after(1000, countdown,
                              count - 1)  # window.after() accepts the time delay, the function you want to call,
-    else:  # and *args to pass to the function
+    else:                                # and *args to pass to the function
         checks = ""
         work_sessions = math.floor(reps / 2)
         for _ in range(work_sessions):
